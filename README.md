@@ -57,8 +57,7 @@ button{
 const canvas=document.getElementById("game");
 const ctx=canvas.getContext("2d");
 const size=20,total=20;
-const API_URL="const API_URL="https://script.google.com/macros/s/AKfycbw0ZvtWO_3jHoTF_5bE7q9UG7h0IDKE6fxaQwcBNIrv_fmi1yNCZF7MauaGPOBWb7zemA/exec";";
-
+const API_URL="https://script.google.com/macros/s/AKfycbw0ZvtWO_3jHoTF_5bE7q9UG7h0IDKE6fxaQwcBNIrv_fmi1yNCZF7MauaGPOBWb7zemA/exec";
 let snake,food,dx,dy,score,timer;
 let running=false,locked=false;
 
